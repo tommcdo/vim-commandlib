@@ -16,7 +16,7 @@ function! commandlib#min_prefix_len(command)
 endfunction
 
 "
-" Given an array of command names, build a pattern that matches any of them
+" Given a List of command names, build a pattern that matches any of them
 " including unambiguous prefixes.
 "
 " Example:
