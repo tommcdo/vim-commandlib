@@ -10,7 +10,7 @@ function! commandlib#min_prefix_len(command)
 endfunction
 
 " Given an array of command names, build a pattern that matches any of them
-" inclluding unambiguous prefixes.
+" including unambiguous prefixes.
 function! commandlib#pattern(commands)
 	let alternation = ''
 	for command in a:commands
